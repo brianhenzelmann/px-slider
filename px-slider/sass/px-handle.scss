@@ -1,0 +1,133 @@
+/*
+ * Copyright (c) 2014 GE Global Research. All rights reserved.
+ *
+ * The copyright to the computer software herein is the property of
+ * GE Global Research. The software may be used and/or copied only
+ * with the written permission of GE Global Research or in accordance
+ * with the terms and conditions stipulated in the agreement/contract
+ * under which the software has been supplied.
+ */
+
+//
+// Sass for the "sketch" notion of the px-slider component
+//
+// @author
+//
+
+/*
+THIS FILE SHOULD CONTAIN ONLY ABSTRACT/'SKETCH' THEME RULES, NOT SPECIFIC TO PREDIX BRANDING
+Predix branding rules go in px-slider-predix.scss, not in this file.
+*/
+
+// Settings
+@import "px-colors-design/_settings.colors.scss";
+
+// Generic
+@import "px-normalize-design/_generic.normalize.scss";
+@import "px-box-sizing-design/_generic.box-sizing.scss";
+
+// Component
+:host {
+  position: absolute;
+  top: -#{calculateRem(6px)};
+  display: inline-block;
+  &.start{
+    top: $inuit-base-spacing-unit--large*0.4;
+    margin-left:$inuit-base-spacing-unit--large*-0.48;
+  }
+  &.end{
+    top: -$inuit-base-spacing-unit--large;
+    margin-left:$inuit-base-spacing-unit--large*-0.48;
+  }
+}
+
+#handleTarget {
+  height: $inuit-base-spacing-unit--large;
+  width: $inuit-base-spacing-unit--large;
+  border: 1px solid $gray5;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba($black, .15);
+  background-color: $white;
+  fill: $gray5;
+  cursor: pointer;
+
+  .handleLines{
+    stroke:$gray5;
+    fill:none;
+    stroke-miterlimit:10;
+  }
+  #handleDropShadow{
+    opacity:0.15;
+    mix-blend-mode:multiply;
+    stroke:$black;
+    fill:$black;
+    stroke-miterlimit:10;
+  }
+  #handleBody{
+    fill:$white;
+    stroke:$gray5;
+    stroke-miterlimit:10;
+  }
+
+
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    border-color: $gray6;
+    background-color: $gray5;
+    svg {
+      stroke: $gray6;
+    }
+    .handleLines{
+      stroke:$gray6;
+    }
+    #handleBody{
+      fill: $gray5;
+      stroke: $gray6;
+    }
+  }
+  &.tracking {
+    border-color: $gray7;
+    background-color: $gray6;
+    box-shadow: none;
+    svg {
+      stroke: $gray7;
+    }
+    .handleLines{
+      stroke:$gray7;
+    }
+    #handleBody{
+      fill:$gray6;
+      stroke:$gray7;
+    }
+  }
+  &.disabled {
+    border-color: $gray4;
+    background-color: $white;
+    box-shadow: none;
+    svg {
+      stroke: $gray4;
+    }
+    .handleLines{
+      stroke:$gray4;
+    }
+    #handleBody{
+      fill:$white;
+      stroke:$gray4;
+    }
+  }
+}
+
+#multiHandleSVG{
+  height: $inuit-base-spacing-unit--large*1.1;
+  width: $inuit-base-spacing-unit--large;
+  -moz-user-select: none;
+  &.start{
+    transform: rotate(180deg);
+
+    #handleTarget{
+        transform:translate($inuit-base-spacing-unit--large*(0.03),$inuit-base-spacing-unit--large*(0.13))
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "px-forms-design",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "authors": [
     "General Electric",
     "Nathan Smith"
@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/PredixDev/px-forms-design.git",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -33,11 +33,11 @@
     "px-list-bare-design": "https://github.com/PredixDev/px-list-bare-design.git#~0.2.0",
     "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0"
   },
-  "_release": "0.3.14",
+  "_release": "0.3.15",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.14",
-    "commit": "d8cace1a3e0a486d03ba46db663deaf55c899c8d"
+    "tag": "v0.3.15",
+    "commit": "3667269f9805c74ef40ec02f6aa7957d1ca585c4"
   },
   "_source": "https://github.com/PredixDev/px-forms-design.git",
   "_target": "~0.3.0",

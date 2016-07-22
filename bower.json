@@ -35,8 +35,5 @@
     "px-code-design": "^0.2.11",
     "px-headings-design": "^0.2.14",
     "px-list-inline-design": "^0.2.11"
-  },
-  "resolutions": {
-    "px-viewport-design": "~0.4.1"
   }
 }

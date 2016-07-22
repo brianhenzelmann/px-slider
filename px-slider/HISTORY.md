@@ -1,3 +1,11 @@
+v0.5.2
+=================
+* Enabled api viewer
+
+v0.5.1
+=================
+* Updated to new demo
+
 v0.5.0
 =================
 * Upgrade to Polymer 1.5.0

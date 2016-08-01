@@ -1,6 +1,6 @@
 {
   "name": "px-slider",
-  "version": "0.5.2",
+  "version": "0.5.4",
   "main": [
     "px-slider.html"
   ],
@@ -12,24 +12,25 @@
     "bower_components",
     "node_modules",
     "test",
-    "OSS_Notice.pdf"
+    "OSS_Notice.pdf",
+    "scripts",
+    ".github",
+    "px-slider.png"
   ],
   "dependencies": {
     "polymer": "^v1.5.0",
-    "px-theme": "https://github.com/PredixDev/px-theme.git#~0.8.0",
+    "px-theme": "~0.8.0",
     "iron-resizable-behavior": "PolymerElements/iron-resizable-behavior#~v1.0.3"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#~v1.1.6",
     "px-starter-kit-design": "~0.5.5",
     "px-forms-design": "#~0.3.15",
     "px-tables-design": "#~0.3.12",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#~1.2.3",
-    "polymer-font-awesome": "~0.1.5",
+    "px-polymer-font-awesome": "^0.1.8",
     "px-tabs": "~0.4.0",
-    "ace-widget": "LostInBrittany/ace-widget#~1.0.13",
-    "px-api-viewer": "https://github.com/PredixDev/px-api-viewer.git",
-    "px-demo-snippet": "https://github.com/predixdev/px-demo-snippet.git",
+    "px-api-viewer": "~0.0.3",
+    "px-demo-snippet": "~0.0.11",
     "px-toggle-design": "^0.2.12",
     "px-actionable-text-icons-design": "^0.0.3",
     "px-code-design": "^0.2.11",
@@ -37,11 +38,11 @@
     "px-list-inline-design": "^0.2.11"
   },
   "homepage": "https://github.com/PredixDev/px-slider",
-  "_release": "0.5.2",
+  "_release": "0.5.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.5.2",
-    "commit": "e85c78d0b8c0661ddfba2a16f6fe93583d944c97"
+    "tag": "v0.5.4",
+    "commit": "d802717dbc45700fea1a62ad42824e5be27c8eca"
   },
   "_source": "https://github.com/PredixDev/px-slider.git",
   "_target": "^0.5.0",

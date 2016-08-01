@@ -42,7 +42,7 @@
   "_resolution": {
     "type": "version",
     "tag": "v0.5.5",
-    "commit": "98199352fdab565e689c597fe7027d6be149bc63"
+    "commit": "16edbb1f36bd28e9c3456c7d3513a7ab351c2eed"
   },
   "_source": "https://github.com/PredixDev/px-slider.git",
   "_target": "^0.5.0",

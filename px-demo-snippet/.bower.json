@@ -1,6 +1,6 @@
 {
   "name": "px-demo-snippet",
-  "version": "0.1.6",
+  "version": "0.4.0",
   "main": [
     "px-demo-snippet.html"
   ],
@@ -20,21 +20,24 @@
     "polymer": "^1.5.0",
     "px-theme": "~0.8.0",
     "px-clipboard": "^0.0.11",
-    "prism-element": "PolymerElements/prism-element#~1.1.0",
-    "px-simple-horizontal-bar-chart": "^0.5.8"
+    "prism-element": "PolymerElements/prism-element#~1.1.1",
+    "px-spacing-design": "~0.3.8",
+    "px-polymer-font-awesome": "^0.1.8",
+    "iron-ajax": "^1.4.3"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#~v1.1.6",
-    "px-starter-kit-design": "~0.5.5"
+    "px-starter-kit-design": "~0.5.5",
+    "px-spinner": "^0.3.13"
   },
   "homepage": "https://github.com/predixdev/px-demo-snippet",
-  "_release": "0.1.6",
+  "_release": "0.4.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.6",
-    "commit": "545740b58cc3683d5ee831cec093097009c96af9"
+    "tag": "v0.4.0",
+    "commit": "e3d777a27151b163389405abf3549928aa3ecc75"
   },
   "_source": "https://github.com/predixdev/px-demo-snippet.git",
-  "_target": "^0.1.0",
+  "_target": "^0.4.0",
   "_originalSource": "px-demo-snippet"
 }

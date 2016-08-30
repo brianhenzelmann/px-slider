@@ -38,6 +38,6 @@
     "px-list-inline-design": "^0.2.11"
   },
   "resolutions": {
-    "iron-ajax": "^1.4.3"
+    "iron-ajax": "^1.0.0"
   }
 }

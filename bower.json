@@ -1,6 +1,6 @@
 {
   "name": "px-slider",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "main": [
     "px-slider.html"
   ],
@@ -38,10 +38,8 @@
     "px-list-inline-design": "^0.2.11"
   },
   "resolutions": {
-    "iron-ajax": "^1.4.3",
-    "px-typography-design": "~1.1.1",
-    "px-clipboard": "^0.1.1",
-    "px-theme": "^1.1.2",
-    "px-slider": "^0.6.0"
+    "px-typography-design": "^1.1.0",
+    "iron-ajax": "^1.0.0",
+    "px-theme": "~1.1.2"
   }
 }

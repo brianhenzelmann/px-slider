@@ -1,5 +1,17 @@
 v0.2.11
 ==============================
+* fixed travis setup 
+
+v0.2.11
+==============================
+* set up travis auto-ghp
+
+v0.2.11
+==============================
+* updated to new demo
+
+v0.2.11
+==============================
 * updated oss notice and readme, pointing to gh-pages
 
 v0.2.10

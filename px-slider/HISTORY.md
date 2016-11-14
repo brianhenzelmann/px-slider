@@ -1,4 +1,9 @@
-v0.6.6
+v0.7.0
+=================
+* fixed display issue with multi-handle
+* added property for hide-inputs per #7
+
+v0.6.7
 =================
 * added style variables for theming
 * fixed dependencies

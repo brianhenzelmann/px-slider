@@ -1,3 +1,8 @@
+v0.6.6
+=================
+* added style variables for theming
+* fixed dependencies
+
 v0.6.3
 =================
 * Made positioning work with shadow DOM

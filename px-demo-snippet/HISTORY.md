@@ -1,3 +1,19 @@
+v0.6.7
+=================
+* fixed travis
+
+v0.6.6
+=================
+* add 3 includes properties to API documentation
+
+v0.6.5
+=================
+* had hover state and title to codepen/edit icon
+
+v0.6.4
+=================
+* added shadow dom support to the snippet highlighting.
+
 v0.6.4
 =================
 * added shadow dom support to the snippet highlighting.

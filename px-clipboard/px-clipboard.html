@@ -30,17 +30,15 @@ Or, with no input/textarea:
 @demo demo.html
 -->
 
--->
-
 <link rel="import" href="css/px-clipboard-styles.html">
 <dom-module id="px-clipboard">
   <template>
     <style include="px-clipboard-styles"></style>
     <style include="px-theme-styles"></style>
-    <div class="flex">
+    <div class="flex flex--left">
       <div class="flex__item"><content></content></div>
-      <div class="iron float--right">
-        <iron-icon icon="fa:fa-clipboard" id="copy"></iron-icon>
+      <div class="iron">
+        <iron-icon title="copy" icon="fa:fa-clipboard" id="copy"></iron-icon>
       </div>
     </div>
   </template>

@@ -1,6 +1,6 @@
 {
   "name": "px-slider",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "main": [
     "px-slider.html"
   ],
@@ -30,7 +30,7 @@
     "px-polymer-font-awesome": "^0.1.8",
     "px-tabs": "~0.5.1",
     "px-api-viewer": "~0.1.0",
-    "px-demo-snippet": "^0.6.3",
+    "px-demo-snippet": "^0.6.9",
     "px-toggle-design": "^0.2.12",
     "px-actionable-text-icons-design": "^0.1.0",
     "px-code-design": "^0.2.11",
@@ -38,12 +38,11 @@
     "px-list-inline-design": "^0.2.11"
   },
   "resolutions": {
+    "iron-ajax": "^1.4.3",
     "px-iconography-design": "^0.3.1",
-    "px-functions-design": "~1.0.0",
-    "iron-ajax": "^1.0.0",
-    "px-defaults-design": "^0.3.0",
     "px-theme": "^1.1.2",
-    "px-slider": "^0.7.0",
-    "px-typography-design": "^1.1.1"
+    "px-defaults-design": "~0.3.0",
+    "px-functions-design": "~1.0.0",
+    "px-typography-design": "^1.1.3"
   }
 }

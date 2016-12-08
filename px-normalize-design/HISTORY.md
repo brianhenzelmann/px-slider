@@ -1,13 +1,14 @@
+v0.3.16
+==================
+* Apply subset of normalize settings to :root selector as well as html
 
 v0.3.15
 ==================
 * bumping sassdoc to propogate clipboard changes
 
-
 v0.3.14
 ==================
 * bumping all version of px-sass-doc to get px-clipboard update
-
 
 v0.3.13
 ==================

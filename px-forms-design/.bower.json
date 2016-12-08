@@ -1,6 +1,6 @@
 {
   "name": "px-forms-design",
-  "version": "0.3.28",
+  "version": "0.3.29",
   "authors": [
     "General Electric",
     "Nathan Smith"
@@ -31,11 +31,11 @@
     "px-buttons-design": "^0.4.32",
     "px-list-bare-design": "^0.2.15"
   },
-  "_release": "0.3.28",
+  "_release": "0.3.29",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.28",
-    "commit": "40ef9e9b5e6578270602194ff1212e32d5bf6d3b"
+    "tag": "v0.3.29",
+    "commit": "e70d74d0b874c2164b6d277a2d7260228f239919"
   },
   "_source": "https://github.com/predixDev/px-forms-design.git",
   "_target": "^0.3.15",

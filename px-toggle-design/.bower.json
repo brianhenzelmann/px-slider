@@ -1,6 +1,6 @@
 {
   "name": "px-toggle-design",
-  "version": "0.2.22",
+  "version": "0.2.23",
   "authors": [
     "General Electric"
   ],
@@ -30,11 +30,11 @@
     "px-starter-kit-design": "~0.6.0",
     "px-sass-doc": "^0.2.10"
   },
-  "_release": "0.2.22",
+  "_release": "0.2.23",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.22",
-    "commit": "dba5e1067a43448765e33f3e90f3f6fbb2b8cafd"
+    "tag": "v0.2.23",
+    "commit": "6fd22b558443e08811db98e6e3a449ff75930edd"
   },
   "_source": "https://github.com/predixDev/px-toggle-design.git",
   "_target": "^0.2.12",

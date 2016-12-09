@@ -1,4 +1,12 @@
-v0.5.10
+v0.5.13
+==================
+* fixed test fixture and tests to match other Px components
+
+v0.5.12
+==================
+* fixed theming
+
+v0.5.11
 ==================
 * changing all devDeps to ^
 

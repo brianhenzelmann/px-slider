@@ -1,3 +1,6 @@
+v0.3.16
+==================
+* Move to style modules to demos
 v0.3.15
 ==================
 * fixed import layer from objects to generic in index

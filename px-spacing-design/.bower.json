@@ -1,6 +1,6 @@
 {
   "name": "px-spacing-design",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -29,11 +29,11 @@
     "px-sass-doc": "^0.2.10",
     "px-starter-kit-design": "~0.6.0"
   },
-  "_release": "0.3.17",
+  "_release": "0.3.18",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.17",
-    "commit": "276c679fdf2e19cf846aed112a5234a1f8688ad3"
+    "tag": "v0.3.18",
+    "commit": "b7db53ef7a03d8c99d9c9ee3eb9c0d0e3ffcff21"
   },
   "_source": "https://github.com/PredixDev/px-spacing-design.git",
   "_target": "~0.3.0",

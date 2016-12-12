@@ -1,6 +1,6 @@
 {
   "name": "px-headings-design",
-  "version": "0.2.24",
+  "version": "0.3.0",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -23,19 +23,19 @@
   ],
   "dependencies": {
     "px-defaults-design": "~0.3.0",
-    "px-mixins-design": "~0.2.10"
+    "px-mixins-design": "^0.3.0"
   },
   "devDependencies": {
-    "px-starter-kit-design": "~0.6.0",
-    "px-sass-doc": "^0.2.10"
+    "px-starter-kit-design": "^0.7.0",
+    "px-sass-doc": "^0.3.0"
   },
-  "_release": "0.2.24",
+  "_release": "0.3.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.24",
-    "commit": "68a98c9c1450708061215fd198bd27441a744dae"
+    "tag": "v0.3.0",
+    "commit": "f5d3eca9c50fea122326de7a597f6609e0e39c94"
   },
   "_source": "https://github.com/predixDev/px-headings-design.git",
-  "_target": "^0.2.14",
+  "_target": "^0.3.0",
   "_originalSource": "px-headings-design"
 }

@@ -1,3 +1,14 @@
+v1.1.0
+==================
+* Updated dependencies
+
+v1.0.1
+==================
+* Move to style modules to demos
+v1.0.0
+==================
+* Reintroduce CSS style variables
+
 v0.2.23
 ==================
 * remove CSS style variables from 0.4.X release track

@@ -1,6 +1,18 @@
+v1.1.0
+==================
+* Updated dependencies
+
+v1.0.1
+==================
+* Move to style modules and service worker for docs.
+
+v1.0.0
+==================
+* Reintroduce CSS style variables
+
 v0.1.7
 ==================
-* remove CSS style variables from 0.4.X release track
+* remove CSS style variables from 0.1.X release track
 
 v0.1.6
 ==================
